@@ -1,0 +1,138 @@
+/* @theme umino */
+
+@import 'default';
+
+section {
+  font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  padding-top: 24px;
+}
+
+p,
+li {
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: #008080;
+  font-weight: bold;
+  white-space: pre-wrap;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #008080;
+  font-weight: bold;
+  white-space: pre-wrap;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 2.1rem;
+  color: #008080;
+  margin-top: 0;
+}
+
+h4 {
+  font-size: 1.5rem;
+  color: #008080;
+}
+
+/* ボックススタイル */
+.box {
+  background-color: #E0F7F7;
+  border-left: 5px solid #008080;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.box-highlight {
+  background-color: #FFF9E6;
+  border: 2px solid #FFA500;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.box-warning {
+  background-color: #FFE6E6;
+  border-left: 5px solid #FF4444;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+/* 引用ブロックのカスタマイズ */
+blockquote {
+  background-color: #E0F7F7;
+  border-left: 5px solid #008080;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+/* 枠線付きページ */
+section.border-page {
+  border: 15px solid #008080;
+  padding: 24px 40px 40px;
+}
+
+:root {
+  --fw: 1;
+}
+
+/* ----- レイアウト ----- */
+.flex {
+  display: flex;
+  gap: 1em;
+  align-items: flex-start;
+}
+
+.sa {
+  justify-content: space-around;
+  /* border: 8px dashed rgb(15, 166, 226);
+  background-color: rgb(222, 244, 255); */
+}
+
+.sb {
+  justify-content: space-between;
+  /* border: 8px dashed rgb(21, 17, 255);
+  background-color: rgb(222, 244, 255); */
+}
+
+.sa div,
+.sb div {
+  margin: 0.1em;
+  /* border: 8px dashed rgb(80, 177, 109);
+  background-color: rgb(227, 250, 237); */
+}
+
+.fw div {
+  flex: var(--fw);
+  /* background-color: rgb(244, 238, 255);
+  border: 8px dashed rgb(93, 0, 255); */
+}
+
+/* ---------- 
+
+.flex img {
+  max-height: auto;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}*/
+
+.month-label {
+  font-size: 1.3rem;
+  margin: 0.2em 0 0.4em;
+}
+
+.fullwidth-title {
+  width: 100%;
+  display: block;
+  margin: 0 0 0.4em;
+}
+
+
